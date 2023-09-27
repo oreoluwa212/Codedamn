@@ -111,6 +111,17 @@ p {
     font-weight: bolder;
 }
 
+.post-text{
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+.post-text1{
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
 .suggested{
     padding: 0px 10px;
 }
@@ -169,7 +180,7 @@ p {
 
 .user-post {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     padding: 0px 30px;
     align-items: center;
 
