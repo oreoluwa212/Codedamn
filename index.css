@@ -60,6 +60,25 @@ li {
 .grid-two {
     background: rgb(149, 204, 241);
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.box4{
+    display: inline-flex;
+    gap: 20px;
+}
+.lite{
+    height: 10px;
+    line-height: 5px;
+}
+.follow{
+    color: blue;
 }
 
 .gallery-row {
@@ -175,6 +194,10 @@ p {
     .body-grid{
         display: flex;
     }
+    body{
+    overflow-x: hidden;
+    }
+
     .nav-menu {
         display: flex;
         gap: 30px;
